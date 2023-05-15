@@ -1,0 +1,6 @@
+matplotlib
+pathlib
+pandas
+tensorflow
+keras
+numpy

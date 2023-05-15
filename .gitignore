@@ -1,1 +1,5 @@
-Data/
+Data/train
+Data/valid
+data.py
+main.py
+model.py

@@ -28,13 +28,13 @@ def get_bird_name(index):
 
 def plot_curves(history):
 
-    loss = history.history["loss"]
-    val_loss = history.history["val_loss"]
+    loss = history["loss"]
+    val_loss = history["val_loss"]
 
-    accuracy = history.history["accuracy"]
-    val_accuracy = history.history["val_accuracy"]
+    accuracy = history["accuracy"]
+    val_accuracy = history["val_accuracy"]
 
-    epochs = range(len(history.history["loss"]))
+    epochs = range(len(history["loss"]))
 
     # plot loss
     pyplot.plot(epochs, loss, label="training_loss")
@@ -50,3 +50,5 @@ def plot_curves(history):
     pyplot.title("accuracy")
     pyplot.xlabel("epochs")
     pyplot.legend()
+
+    pyplot.show()
