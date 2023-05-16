@@ -1,3 +1,5 @@
+## Bird Species Identification Tool
+
 Prerequisites
 - Python 3.9 or later [Downloads can be found here](https://www.python.org/downloads/)
 - pip package manager for Python [Installation guide can be found here](https://pypi.org/project/pip/)
@@ -7,6 +9,6 @@ Installation Requirements
 
 <code>pip install -r requirements.txt</code>
 
-2. Start Jupyter Lab to view the notebook
+2. Start Jupyter Lab to view the notebook. Follow the instructions in the notebook to use the tool.
 
 <code>jupyter-lab</code>
