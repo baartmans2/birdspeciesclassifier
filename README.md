@@ -9,6 +9,8 @@ Installation Requirements
 
 <code>pip install -r requirements.txt</code>
 
-2. Start Jupyter Lab to view the notebook. Follow the instructions in the notebook to use the tool.
+2. Start Jupyter Lab using the following command. 
 
-<code>jupyter-lab</code>
+<code>python -m notebook</code>
+
+3. Go to localhost:8888/notebook/notebook.ipynb in your browser to view the notebook. Follow the instructions in the notebook to use the tool.
